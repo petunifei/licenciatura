@@ -1,0 +1,155 @@
+header, body, nav, footer {
+	padding: 0;
+	margin:0;
+	border:0;
+	text-decoration:none;
+	font-family: Times new roman, sans-serif;}
+	
+/*grid*/
+#main{
+	
+	display: grid;
+	grid-template-rows: 15vh 7vh 58vh 20vh;
+	grid-template-areas: "header""nav" "content" "footer";
+	}
+	.mainHeader{ grid-area: header; background: #B3A8C5;}
+	.mainNav{ grid-area: nav; background: #9D0B34;  max-height: 7vh; overflow:auto; }
+	.mainContent{ grid-area: content; background: white; }
+	.mainFooter{ grid-area: footer; background: #DCDCDC; }
+/*grid fim*/
+
+	/*breakingpoints*/
+	/*@media screen and (min-width: 730px){
+		article{
+		display: flex;
+		flex-wrap: wrap;
+		width: 500px;
+		margin: 0 auto;
+		overflow: auto;	
+		}
+		
+		.flex > article {
+		flex: 1 1 200px;
+		}}*/
+
+/*cabeçalho*/	
+header h1{
+	color: #000000;
+	font-size: 5vh;
+	text-align: left;
+   	}
+#logo{
+	 width: 20vh;
+	 height: 12vh;
+	 position: relative;
+	 object-position: top;
+	 float: left;
+	 margin: 2.5vh 5vh;
+	}
+/*cabeçalho fim*/
+
+/*menu*/
+/*corpo do menu*/
+nav {	
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	}
+
+
+ /*botões menu*/
+nav .bm{
+	margin: none;
+	padding: none;
+	justify-content: space-around;
+	padding: 0.2vh 3vh 0.659vh 3vh;
+    margin:auto 4vh;
+	background-color: #9D0B34;
+	border: none;
+	display: inline-block;     
+    position: relative;    
+    z-index: 1; 
+    object-position: top;
+}  
+
+/*botão menu texto*/
+.bmt{
+	text-decoration: none;
+	color: white;
+	font-size: 3vh;
+	text-underline-position: none;
+	/*ajuste da magem dos botões*/
+	display: inline-block;     
+   	position: relative;    
+   	z-index: 1;     
+   	padding: 2vh;     
+   	margin: -2vh;
+	}
+/*efeitos especiais do menu*/
+.bm:hover{box-shadow: 1px 1px white;}
+/*menu fim*/
+
+/*conteudo ou article:estensão/ensino/pesquisa*/
+article img{
+	 width: 60vh;
+	 height: 40vh;
+	 border-radius: 0.6em;
+	 position: relative;
+}
+
+/**/
+.mainContent{
+	display: flex;
+	align-items: height;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 5vh;
+	object-position: top;
+ }
+ /*conteudo:estensão/ensino/pesquisafim*/
+
+/*efeito nos botões*/
+#pgex:hover{top:-5px;box-shadow:0 2px 2px #9D0B34;}
+#pgen:hover{top:-5px;box-shadow:0 2px 2px #9D0B34;}
+#pgpe:hover{top:-5px;box-shadow:0 2px 2px #9D0B34;}
+#inter:hover{top:-5px;box-shadow:0 2px 2px #000000;}
+.icones button img:hover{top:-5px;}
+/*efeito nos botões fim*/
+
+/*footer*/
+footer {
+	display: flex;
+	justify-content: space-around;
+	float: left;
+	position: relative;
+	align-items: center;
+	overflow: hidden;
+	}
+
+#inter{
+	 width: 60vh;
+	 height: 15vh;
+	 position: relative;
+	 object-position: top;
+	 float: left;
+	 margin: 2.5vh 5vh;
+	}
+
+.icones button img{
+	 width: 10vh;
+	 max-width: 10vh;
+	 height: 10vh;
+	 max-height: 10vh;
+	 position: relative;
+	 float: left;
+	 margin: 2.5vh 5vh;
+	}
+
+.icones button{
+	background: transparent;
+	border:none;
+	width: 20vh;
+	height: 20vh;
+	max-width: 20vh;
+	max-height:20vh;
+}
