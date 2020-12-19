@@ -1,0 +1,188 @@
+.ensino-n0{
+	display: block;
+	width: 100vw;
+}
+	.ensino-n1{
+		display: block;
+		width: 100vw;
+	}
+/*background*/
+		.ensino-n2-a{
+			display: block;
+			width: 100vw;
+			max-width: 100vw;
+			margin: auto;
+			max-height: 40vw; 
+			}
+				#ensino-n4-a-img-background{
+					width: 100vw;
+					height: 40vw;
+					margin: auto;
+				}
+/*navegação #id*/
+		.ensino-n2-b{
+			display: flex;
+			flex-wrap: wrap;
+			width: 100vw;
+			min-height: 30vh;
+			max-height: 35vw;
+			align-items: center;
+			margin: auto;
+			background-color: white;
+		}
+			.ensino-n3-but{
+				height: 10vh;
+				min-width: 15vw;
+				max-width: 30vw;
+				margin: auto;
+				background-color:  #480435;
+				border-radius: 1vw;
+				}
+			.ensino-n5-c-title-txt-a{
+				display: flex;
+				align-items: center;
+				text-align: center;
+			}
+				.ensino-n3-but-txt{
+					display: inline;
+					font-size: 3vh;
+					color: white;
+					margin: auto;
+					padding: 3vh 8vh;
+					font-weight: bold;
+				}
+				#fisica-geral-1{
+					display: flex;
+					align-items: center;
+					text-align: center;
+				}
+@media (orientation:portrait){
+			.ensino-n2-b{
+				min-height: 20vw;
+			}
+				.ensino-n3-but{
+					height: 7vh;
+					min-width: 15vw;
+					max-width: 30vw;
+					margin: auto;
+					background-color: #480435;
+					border-radius: 2vw;
+				}
+				.ensino-n3-but-txt{
+					font-size: 2.5vw;
+					font-weight: bold;
+					color: white;
+					margin: auto;
+					padding: 2vw;
+				}
+				#fisica-geral-1{
+					display: flex;
+					align-items: center;
+					text-align: center;
+				}
+				.up{
+					width: 5vh;
+					height: 5vh;
+					opacity: 30%;
+				}
+				.up:hover{
+					opacity: 30%;
+				}
+				.top{
+					position: fixed;
+					margin-left: 90vw;
+					margin-top: 94vh;
+
+				}	
+}
+
+/*miniaturas*/
+		.ensino-n2-c{
+			display: block;
+			width: 100vw;
+		}
+			.ensino-n3-c-curso{
+				display: block;
+				width: 100vw;
+			}
+				.ensino-n4-c-disciplina{
+					display: block;
+					width: 100vw;
+				}
+					.ensino-n5-c-title-txt-div{
+						display: flex;
+						background-color: white;
+						height: 15vh;
+						justify-content: space-around;						
+						background-color: #56938F;
+					}
+						.ensino-n5-c-title-txt{
+							font-size: 6vh;
+							text-align: center;
+							margin: auto;
+							background-color: white;
+							background-color: #56938F;
+						}
+						.ensino-n5-c-subtitle-div{
+							display: flex;
+							width: 100vw;
+							height: 7vh;
+							align-items: center;
+							max-width: 100vw;
+						}
+							.ensino-n5-c-subtitle-txt{
+							width: 100vw;
+							max-width: 100vw;
+							font-size: 4vh;
+							text-align: left;
+							text-indent: 2vw;
+							position: relative;
+							background-color: 
+						}
+							.ensino-n5-c-div{
+								display: flex;
+								justify-content: space-around;
+								flex-wrap: wrap;
+							}
+								.ensino-n7-c-img{
+									flex-wrap: wrap;
+									width: 31vw;
+									height: 17vw;
+									margin: 3vh auto;
+									border-radius: 3vh;
+								}
+@media (orientation:portrait){
+				.ensino-n5-c-title-txt{
+							font-size: 4vh;
+				}			
+				.ensino-n5-c-subtitle-txt{
+					font-size: 2.5vh;
+				}
+						.ensino-n7-c-img{
+							flex-wrap: wrap;
+							width: 90vw;
+							height: 45vw;
+							margin-left: auto;
+							margin-right: auto;
+							align-items: center;	
+						}
+
+}
+.hr{
+	display: block;
+	width: 100vw;
+	height: 1px;
+	background-color: black;
+}		
+
+
+
+
+
+
+
+
+
+
+
+

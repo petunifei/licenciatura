@@ -1,0 +1,164 @@
+.pesquisa-0{
+	display: flex;
+	width: 100vw;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+}
+@media (orientation: landscape){
+	.pesquisa-1{
+		width: 30vw;
+		height: 30vw;
+		background-color: #CDCDCD;
+		margin: 5vh 0;
+		border-radius: 3vh;
+	}
+	}
+@media (orientation: portrait){
+	.pesquisa-1{
+		width: 90vw;
+		height: 90vw;
+		background-color: #CDCDCD;
+		margin: 5vh auto;
+		border-radius: 3vh;
+	}
+}	
+		.pesq-2-a{
+			display: flex;
+			position: relative;
+			width: 100%
+			height: 70%;
+			z-index: 0;
+			overflow-y: auto;
+		}
+			.pesq-3-img{
+				position: relative;
+				width: 100%;
+				height: 100%;
+				border-radius: 3vh 3vh 0 0;
+				z-index: 1;
+				border-bottom: -3px black;
+			}
+				.pesq-2-3-txt{
+					background-color: white;
+					color: black;
+					font-size: 1.5vh;
+				}
+		.pesq-2-b{
+			display: flex;
+			justify-content: space-around;
+			position: relative;
+			width: 100%;
+			height: 30%;
+			max-height: 30%;
+			background-color: #CDCDCD;
+			border-radius: 0 0 3vh 3vh;
+			margin: 1vh 0;
+			z-index: 1;
+		}
+@media (orientation: landscape){
+				.pesq-3-txt{
+					font-size: 1.1rem;
+					color: black;
+					text-align: center;
+					vertical-align: middle;
+					font-weight: bolder;
+					overflow-y: auto;
+					margin: 0 1vh;
+				}
+}
+@media (orientation: portrait){
+				.pesq-3-txt{
+					font-size: 1.7rem;
+					color: black;
+					text-align: center;
+					vertical-align: middle;
+					font-weight: bolder;
+					overflow-y: auto;
+					margin: 2vh 1vh 0 1vh;
+				}
+}
+				.pesq-3-txt:hover{
+					-moz-transform: scale(1.03);
+					-webkit-transform: scale(1.03);
+					transform: scale(1.03);
+				}
+@media (orientation: landscape){
+		.pesq-2-a-dados{
+			display: none;
+			position: absolute;
+			z-index: 3;
+			width: 30vw;
+			height: 100%;
+			background-color: #CDCDCD;
+			border-radius: 3vh 3vh 0 0;
+		}
+			.pesq-2-a:hover .pesq-2-a-dados{
+				display: block;
+		}
+			.pesq-2-a-menu-img{
+				display: none;
+			}
+}
+@media (orientation: portrait){
+	.pesq-2-a-menu-img{
+				position: absolute;
+				width: 10vh;
+				height: 10vh;
+				z-index: 2;
+				margin: 1vh;
+			}
+		.pesq-2-a-dados{
+			display: none;
+			position: absolute;
+			z-index: 3;
+			width: 90vw;
+			min-height: 100.2%;
+			background-color: #CDCDCD;
+			border-radius: 3vh 3vh 0 0;
+		}
+			.pesq-2-a:hover .pesq-2-a-dados{
+				display: block;
+		}
+		.pesq-2-a-dados p{
+			font-size: 1.8rem;
+		}
+			
+}
+
+		.pesq-2-a-2{
+			display: block;
+			position: absolute;
+			z-index: 2;
+			height: 5vh;
+			background-color: white;
+			margin: 56% 0 0 72%;
+			border-radius: 7%;
+		}
+			}
+			.pesq-2-a-2:hover{
+				-moz-transform: scale(1.03);
+				-webkit-transform: scale(1.03);
+				transform: scale(1.03);
+			}
+				.pesq-4-info-title{
+					text-align: center;
+					margin: 1vh;
+				}
+					.pesq-2-a-dados p{
+						margin: 1vh;
+					}
+		.abrir{
+			display: none;
+			background-color: white;
+			position: absolute;	
+			border-radius: 10%;	
+			margin: -15%;
+		}
+		.abrir p{
+			margin: 1vh;
+		}
+		.pesq-2-b:hover .abrir{
+			display: block;
+			z-index: 2;
+		}
