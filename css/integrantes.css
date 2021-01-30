@@ -706,3 +706,18 @@
 
 											}
 }
+@media (orientation: portrait){
+	.margin1{
+	height: 0;
+	width: 100vw;
+}
+}
+@media (orientation: landscape){
+	.margin1{
+	height: 5vh;
+	width: 100vw;
+}	
+}
+.viagem-n3-1{
+	z-index: 1;
+}

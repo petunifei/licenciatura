@@ -30,9 +30,6 @@
 		#header-n1-txt-title-portrait{
 			visibility: hidden;
 		}
-		#header-n1-txt-title-landscape{
-			visibility: visible;
-		}
 	}
 @media (orientation: portrait){
 
@@ -48,14 +45,4 @@
 			border-style: solid;
 			border-color:  #9D0B34;
 		}
-		#header-n1-txt-title-landscape{
-			visibility: hidden;
-		}
-		#header-n1-txt-title-portrait{
-			visibility: visible;
-		}
 	}
-
-#header-n1-txt-title-landscape, #header-n1-txt-title-portrait{
-	position: absolute;
-}

@@ -80,20 +80,6 @@
 					align-items: center;
 					text-align: center;
 				}
-				.up{
-					width: 5vh;
-					height: 5vh;
-					opacity: 30%;
-				}
-				.up:hover{
-					opacity: 30%;
-				}
-				.top{
-					position: fixed;
-					margin-left: 90vw;
-					margin-top: 94vh;
-
-				}	
 }
 
 /*miniaturas*/

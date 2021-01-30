@@ -8,6 +8,7 @@
 		width: 100vw;
 		height: 80vh;		
 		margin-top: 10vh;
+		margin-bottom: 10vh;
 	}
 		.leitura-n2-content{
 			display: flex;
@@ -31,7 +32,7 @@
 		display: block;
 		width: 100vw;
 		height: 100vh;
-		margin: 10vh 0 0 0;
+		margin: 0 0 10vh 0;
 	}
 		.viagem-n2-content{
 			display: flex;

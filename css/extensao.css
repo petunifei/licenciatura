@@ -48,6 +48,7 @@
 					height: 100%;
 				}
 }
+@media (orientation:landscape){
 		.ext-2-title{
 			display: block;
 			position: relative;
@@ -66,6 +67,29 @@
 				margin: 3vh 6vh;
 				vertical-align: middle;
 			}
+}
+@media (orientation:portrait){
+		.ext-2-title{
+			display: block;
+			position: relative;
+			width: 100vw;
+			height: 50vh;
+			overflow-y:auto; 
+			vertical-align: middle;
+			background-color: white; 
+		}
+			.ext-2-title p{
+				font-family: calibri;
+				color: black;
+				font-size: 4vh;
+				text-indent: 5vw;
+				line-height: 6vh;
+				text-transform: uppercase;
+				text-align: justify;
+				margin: 3vh 6vh;
+				vertical-align: middle;
+			}
+}
 		.ext-2-nav{ 
 			display: flex;
 			position: relative;
