@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<link rel="shortcut icon" href="img/logo.ico">
+	<head >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>PET LICENCIATURAS</title>
+		<meta charset="utf-8"/>	
+		<link rel="stylesheet" type="text/css" href="css/header_footer_nav.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/formacao.css">
+	</head>
+	<body class="body-n0">
+		<a class="top" href="#top">
+			<img class="up" src="img/up.ico">
+		</a>
+		<section class="body-n1">
+			<header id="header-n0">
+					<a href="index.html" class="voltar"><img class="voltar-ico" src="img/back-3.ico"></a>
+					<img id="header-n1-img-logo" src="img/logo.png">
+					<h1 id="header-n1-txt-title">FORMAÇÃO</h1>
+			</header>
+			<nav class="nav-n0">
+				<section class="nav-n1">
+					<div class="nav-n2">
+						<button class="nav-n3-but">
+							<a class="nav-n4-but-txt" href="index.html">INICIO</a>
+						</button>
+					</div>
+					<div class="nav-n2">
+						<button class="nav-n3-but">
+							<a class="nav-n4-but-txt" href="">SOBRE</a>
+						</button>
+					</div>
+					<div class="nav-n2">
+						<button class="nav-n3-but">
+							<a class="nav-n4-but-txt" href="">FORMAÇÃO</a>
+						</button>
+					</div>
+					<div class="nav-n2">
+						<button class="nav-n3-but">
+							<a class="nav-n4-but-txt" href="integrantes.html">INTEGRANTES</a>
+						</button>
+					</div>
+					<div class="nav-n2">
+						<button class="nav-n3-but">
+							<a class="nav-n4-but-txt" href="">CONTATO</a>
+						</button>
+					</div>						
+				</section>
+				<div class="nav-portrait-menu">
+					<p class="portrait-menu-txt">MENU</p>
+				</div>
+			</nav>
+			<article class="form-n0">
+<!--leitura-->
+				<section class="leitura-n1">
+					<div class="leitura-n2-title">
+						<p class="leitura-n2-title-txt">LEITURAS</p>
+					</div>
+					<div class="leitura-n2-content">
+						<button class="leitura-n3-but-1" onclick="plusDivs(-1)"><img class="leitura-n3-but-ico" src="img/back.ico"></button>
+						<div class="leitura-n3 grey">
+							<a class="leitura-n3-img" target="blank" href="http://files.petlicenciaturas.webnode.com.br/200000014-53cb754c0b/A%20contribui%C3%A7%C3%A3o%20de%20um%20Centro%20de%20Ci%C3%AAncias%20para%20a%20forma%C3%A7%C3%A3o%20de%20professores.pdf">
+								<div class="leitura-n4-info">
+									<p class="viagem-n4-desc-title bold center black">SINOPSE</p>
+									<p class="viagem-n4-desc justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<img class="leitura-n4-img" src="img/formacao/txt/txt_1.png">
+							</a>							
+							<a class="leitura-n3-img" target="blank" href="http://files.petlicenciaturas.webnode.com.br/200000014-53cb754c0b/A%20contribui%C3%A7%C3%A3o%20de%20um%20Centro%20de%20Ci%C3%AAncias%20para%20a%20forma%C3%A7%C3%A3o%20de%20professores.pdf">
+								<div class="leitura-n4-info">
+									<p class="viagem-n4-desc-title bold center black">SINOPSE</p>
+									<p class="viagem-n4-desc justify">jhsjbcksndmlksdbk,anms</p>
+								</div>
+								<img class="leitura-n4-img" src="img/f.png">
+							</a>							
+						</div>						 
+						<button class="leitura-n3-but-2" onclick="plusDivs(1)"><img class="leitura-n3-but-ico" src="img/next.ico"></button>
+					</div>					
+					<script>
+						var slideIndex = 1;
+						showDivs(slideIndex);
+
+						function plusDivs(n) {
+						  showDivs(slideIndex += n);
+						}
+						function showDivs(n) {
+						  var i;
+						  var x = document.getElementsByClassName("leitura-n3-img");
+						  if (n > x.length) {slideIndex = 1}
+						  if (n < 1) {slideIndex = x.length}
+						  for (i = 0; i < x.length; i++) {
+						    x[i].style.display = "none";  
+						  }
+						  x[slideIndex-1].style.display = "block";  
+						}
+					</script>
+				</section>
+<!--leitura-fim-->
+
+<!--alterar: 2 botões viagem2019 e 1 no script, mudar o script show_viagem_2019 (são 3), olhar na class das img (e no <a> para o roteiro) (dentro de class=viagem-n3) e trocar o ultimo numero e no script tem uma modificação tbm-->
+
+<!--viagem 2019-->
+				<section class="viagem-n1">					
+					<div class="leitura-n2-title">
+						<p class="leitura-n2-title-txt">VIAGENS FORMATIVAS</p>
+					</div>
+					<div class="viagem-n2-content">
+						<button class="viagem-n3-but-1" onclick="viagem2019(-1)"><img class="viagem-n3-but-ico" src="img/back-2.ico"></button>
+						<div class="viagem-n3 overflow-auto grey" >
+						  <a href="img/formacao/2019/1.jpg">
+						  	<img class="viagem-n3-1" src="img/formacao/2019/1.jpg">
+						  </a>
+						  <a href="img/formacao/2019/2.jpg">
+						  	<img class="viagem-n3-1" src="img/formacao/2019/2.jpg">
+						  </a>
+						  <a href="img/formacao/2019/3.jpg">
+						  	<img class="viagem-n3-1" src="img/formacao/2019/3.jpg">
+						  </a>
+						  <a href="img/formacao/2019/4.jpg">
+						  	<img class="viagem-n3-1" src="img/formacao/2019/4.jpg">
+						  </a>
+						  <a href="img/formacao/2019/5.jpg">
+						  	<img class="viagem-n3-1" src="img/formacao/2019/5.jpg">
+						  </a>
+						  <a href="img/formacao/2019/6.jpg">
+						  	<img class="viagem-n3-1" src="img/formacao/2019/6.jpg">
+						  </a>
+						  <a class="viagem-n3-1 margin-auto">
+						  	<p class="viagem-n4-desc-title bold center">ROTEIRO</p>
+						  	<p class="viagem-n4-desc justify">Durante essa viagem, os Petianos tiveram a oportunidade de conhecer o processo de produção de energia elétrica em uma usina Termonuclear.</p> 
+						  	<p class="viagem-n4-desc justify">Inicialmente, o grupo assistiu uma palestra no Observatório Nuclear - espaço destinado ao diálogo entre visitantes e a instituição. Foram apresentados os processos utilizados para a produção de eletricidade, bem como fornecido instruções para a realização da visita.</p>
+						  	<p class="viagem-n4-desc justify">Em seguida, o grupo teve acesso às instalações da usina Angra 2. Visitou-se o hangar das turbinas, o lado externo da sala de controle e o pátio do prédio. Todos utilizaram capacete de proteção e protetores auriculares. Após o almoço, finalizando a viagem, o grupo foi conduzido para conhecer o simulador. Esse local, situado em uma comunidade próxima, tinha por objetivo auxiliar no treinamento da quipe. jkcçkdsjnkjsdb</p>
+						  </a>
+						</div>
+						<button class="viagem-n3-but-2" onclick="viagem2019(1)"><img class="viagem-n3-but-ico" src="img/next-2.ico"></button>
+					</div>					
+					<script>
+						var slideIndex = 1;
+						show_viagem_2019(slideIndex);
+
+						function viagem2019(n) {
+						  show_viagem_2019(slideIndex += n);
+						}
+						function show_viagem_2019(n) {
+						  var i;
+						  var x = document.getElementsByClassName("viagem-n3-1");
+						  if (n > x.length) {slideIndex = 1}
+						  if (n < 1) {slideIndex = x.length}
+						  for (i = 0; i < x.length; i++) {
+						    x[i].style.display = "none";  
+						  }
+						  x[slideIndex-1].style.display = "block";  
+						}
+					</script>
+				</section>
+<!--viagem 2019-fim-->
+<!--viagem 2018-->
+				<section class="viagem-n1">					
+					<div class="leitura-n2-title">
+						<p class="leitura-n2-title-txt"></p>
+					</div>
+					<div class="viagem-n2-content">
+						<button class="viagem-n3-but-1" onclick="viagem2018(-1)"><img class="viagem-n3-but-ico" src="img/back-2.ico"></button>
+						<div class="viagem-n3 overflow-auto grey" >
+						  <a href="img/formacao/2019/1.jpg">
+						  	<img class="viagem-n3-2" src="img/formacao/2019/1.jpg">
+						  </a>
+						  <a href="img/formacao/2019/2.jpg">
+						  	<img class="viagem-n3-2" src="img/formacao/2019/2.jpg">
+						  </a>
+						  <a href="img/formacao/2019/3.jpg">
+						  	<img class="viagem-n3-2" src="img/formacao/2019/3.jpg">
+						  </a>
+						  <a href="img/formacao/2019/4.jpg">
+						  	<img class="viagem-n3-2" src="img/formacao/2019/4.jpg">
+						  </a>
+						  <a href="img/formacao/2019/5.jpg">
+						  	<img class="viagem-n3-2" src="img/formacao/2019/5.jpg">
+						  </a>
+						  <a href="img/formacao/2019/6.jpg">
+						  	<img class="viagem-n3-2" src="img/formacao/2019/6.jpg">
+						  </a>
+						  <a class="viagem-n3-2 margin-auto">
+						  	<p class="viagem-n4-desc-title bold center">ROTEIRO</p>
+						  	<p class="viagem-n4-desc justify">Durante essa viagem, os Petianos tiveram a oportunidade de conhecer o processo de produção de energia elétrica em uma usina Termonuclear.</p> 
+						  	<p class="viagem-n4-desc justify">Inicialmente, o grupo assistiu uma palestra no Observatório Nuclear - espaço destinado ao diálogo entre visitantes e a instituição. Foram apresentados os processos utilizados para a produção de eletricidade, bem como fornecido instruções para a realização da visita.</p>
+						  	<p class="viagem-n4-desc justify">Em seguida, o grupo teve acesso às instalações da usina Angra 2. Visitou-se o hangar das turbinas, o lado externo da sala de controle e o pátio do prédio. Todos utilizaram capacete de proteção e protetores auriculares. Após o almoço, finalizando a viagem, o grupo foi conduzido para conhecer o simulador. Esse local, situado em uma comunidade próxima, tinha por objetivo auxiliar no treinamento da quipe. jkcçkdsjnkjsdb</p>
+						  </a>
+						</div>
+						<button class="viagem-n3-but-2" onclick="viagem2018(1)"><img class="viagem-n3-but-ico" src="img/next-2.ico"></button>
+					</div>				
+					<script>
+						var slideIndex = 1;
+						show_viagem_2018(slideIndex);
+
+						function viagem2018(n) {
+						  show_viagem_2018(slideIndex += n);
+						}
+						function show_viagem_2018(n) {
+						  var i;
+						  var x = document.getElementsByClassName("viagem-n3-2");
+						  if (n > x.length) {slideIndex = 1}
+						  if (n < 1) {slideIndex = x.length}
+						  for (i = 0; i < x.length; i++) {
+						    x[i].style.display = "none";  
+						  }
+						  x[slideIndex-1].style.display = "block";  
+						}
+					</script>					
+				</section>
+<!--viagem 2018-fim-->
+<!--viagem 2017-->
+				<section class="viagem-n1">					
+					<div class="leitura-n2-title">
+						<p class="leitura-n2-title-txt"></p>
+					</div>
+					<div class="viagem-n2-content">
+						<button class="viagem-n3-but-1" onclick="viagem2017(-1)"><img class="viagem-n3-but-ico" src="img/back-2.ico"></button>
+						<div class="viagem-n3 overflow-auto grey" >
+						  <a href="img/formacao/2019/1.jpg">
+						  	<img class="viagem-n3-3" src="img/formacao/2019/1.jpg">
+						  </a>
+						  <a href="img/formacao/2019/2.jpg">
+						  	<img class="viagem-n3-3" src="img/formacao/2019/2.jpg">
+						  </a>
+						  <a href="img/formacao/2019/3.jpg">
+						  	<img class="viagem-n3-3" src="img/formacao/2019/3.jpg">
+						  </a>
+						  <a class="viagem-n3-3 margin-auto">
+						  	<p class="viagem-n4-desc-title bold center">ROTEIRO</p>
+						  	<p class="viagem-n4-desc justify">Durante essa viagem, os Petianos tiveram a oportunidade de conhecer o processo de produção de energia elétrica em uma usina Termonuclear.</p> 
+						  	<p class="viagem-n4-desc justify">Inicialmente, o grupo assistiu uma palestra no Observatório Nuclear - espaço destinado ao diálogo entre visitantes e a instituição. Foram apresentados os processos utilizados para a produção de eletricidade, bem como fornecido instruções para a realização da visita.</p>
+						  	<p class="viagem-n4-desc justify">Em seguida, o grupo teve acesso às instalações da usina Angra 2. Visitou-se o hangar das turbinas, o lado externo da sala de controle e o pátio do prédio. Todos utilizaram capacete de proteção e protetores auriculares. Após o almoço, finalizando a viagem, o grupo foi conduzido para conhecer o simulador. Esse local, situado em uma comunidade próxima, tinha por objetivo auxiliar no treinamento da quipe. jkcçkdsjnkjsdb</p>
+						  </a>
+						</div>
+						<button class="viagem-n3-but-2" onclick="viagem2017(1)"><img class="viagem-n3-but-ico" src="img/next-2.ico"></button>
+					</div>				
+					<script>
+						var slideIndex = 1;
+						show_viagem_2017(slideIndex);
+
+						function viagem2017(n) {
+						  show_viagem_2017(slideIndex += n);
+						}
+						function show_viagem_2017(n) {
+						  var i;
+						  var x = document.getElementsByClassName("viagem-n3-3");
+						  if (n > x.length) {slideIndex = 1}
+						  if (n < 1) {slideIndex = x.length}
+						  for (i = 0; i < x.length; i++) {
+						    x[i].style.display = "none";  
+						  }
+						  x[slideIndex-1].style.display = "block";  
+						}
+					</script>					
+				</section>
+<!--viagem 2017-fim-->
+<!--viagem 2016-->
+				<section class="viagem-n1">					
+					<div class="leitura-n2-title">
+						<p class="leitura-n2-title-txt"></p>
+					</div>
+					<div class="viagem-n2-content">
+						<button class="viagem-n3-but-1" onclick="viagem2016(-1)"><img class="viagem-n3-but-ico" src="img/back-2.ico"></button>
+						<div class="viagem-n3 overflow-auto grey" >
+						  <a href="img/formacao/2019/1.jpg">
+						  	<img class="viagem-n3-4" src="img/formacao/2019/1.jpg">
+						  </a>
+						  <a href="img/formacao/2019/2.jpg">
+						  	<img class="viagem-n3-4" src="img/formacao/2019/2.jpg">
+						  </a>
+						  <a href="img/formacao/2019/3.jpg">
+						  	<img class="viagem-n3-4" src="img/formacao/2019/3.jpg">
+						  </a>
+						  <a class="viagem-n3-4 margin-auto">
+						  	<p class="viagem-n4-desc-title bold center">ROTEIRO teste</p>
+						  	<p class="viagem-n4-desc justify">Durante essa viagem, os Petianos tiveram a oportunidade de conhecer o processo de produção de energia elétrica em uma usina Termonuclear.</p> 
+						  	<p class="viagem-n4-desc justify">Inicialmente, o grupo assistiu uma palestra no Observatório Nuclear - espaço destinado ao diálogo entre visitantes e a instituição. Foram apresentados os processos utilizados para a produção de eletricidade, bem como fornecido instruções para a realização da visita.</p>
+						  	<p class="viagem-n4-desc justify">Em seguida, o grupo teve acesso às instalações da usina Angra 2. Visitou-se o hangar das turbinas, o lado externo da sala de controle e o pátio do prédio. Todos utilizaram capacete de proteção e protetores auriculares. Após o almoço, finalizando a viagem, o grupo foi conduzido para conhecer o simulador. Esse local, situado em uma comunidade próxima, tinha por objetivo auxiliar no treinamento da quipe. jkcçkdsjnkjsdb</p>
+						  </a>
+						</div>
+						<button class="viagem-n3-but-2" onclick="viagem2016(1)"><img class="viagem-n3-but-ico" src="img/next-2.ico"></button>
+					</div>				
+					<script>
+						var slideIndex = 1;
+						show_viagem_2016(slideIndex);
+
+						function viagem2016(n) {
+						  show_viagem_2016(slideIndex += n);
+						}
+						function show_viagem_2016(n) {
+						  var i;
+						  var x = document.getElementsByClassName("viagem-n3-4");
+						  if (n > x.length) {slideIndex = 1}
+						  if (n < 1) {slideIndex = x.length}
+						  for (i = 0; i < x.length; i++) {
+						    x[i].style.display = "none";  
+						  }
+						  x[slideIndex-1].style.display = "block";  
+						}
+					</script>					
+				</section>
+<!--viagem 2016-fim-->
+			</article>
+			<footer class="footer-n0">
+				<section class="footer-n1">
+					<div class="footer-n2-a">
+						<a class="footer-n2-a-n1" href="http://www.espacointerciencias.com.br/" target="blank">
+							<img class="footer-n2-a-n2-img animacao-footer"  src="img/inter3.png">
+							<img class="footer-n2-a-n2-img animacao-footer"  src="img/inter4.png">
+							<img class="footer-n2-a-n2-img animacao-footer"  src="img/inter2.png">
+							<img class="footer-n2-a-n2-img animacao-footer"  src="img/inter1.png">
+						</a>
+					</div>
+					<div class="footer-n2-b">
+						<button>
+							<a class="footer-n2-a-n1" href="https://pt-br.facebook.com/petlicenciaturas" target="blank">
+								<img class="footer-n2-b-n2-img" src="img/f.png">
+							</a>
+						</button>
+					</div>
+					<div class="footer-n2-b">
+						<button>
+							<a class="footer-n2-b-n1" href="" target="blank">
+									<img class="footer-n2-b-n2-img" src="img/y.png">
+							</a>
+						</button>
+					</div>
+					<div class="footer-n2-b">
+						<button>
+							<a class="footer-n2-b-n1" href="https://www.instagram.com/petlicenciaturas_unifei/" target="blank">
+								<img class="footer-n2-b-n2-img" src="img/i.png">
+							</a>
+						</button>
+					</div>
+					<div class="footer-n2-b">
+						<button>
+							<a class="footer-n2-b-n1" href="" target="blank">
+								<img class="footer-n2-b-n2-img" src="img/t.png">
+							</a>
+						</button>
+					</div>
+					<div class="footer-n2-b">
+						<button>
+							<a class="footer-n2-b-n1" href="https://www.capes.gov.br/" target="blank">
+								<img class="footer-n2-b-n2-img" src="img/c.png">
+							</a>
+						</button>
+					</div>
+					<div class="footer-n2-b">
+						<button>
+							<a href="https://unifei.edu.br/" target="blank">
+								<img class="footer-n2-b-n2-img" src="img/u.png">
+							</a>
+						</button>
+					</div>
+				</section>
+			</footer>
+		</section>
+	</body>
+</html>
