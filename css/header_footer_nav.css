@@ -297,10 +297,16 @@
 @media (orientation:portrait){
 				.top{
 					position: fixed;
-					float: bottom;
-					margin-left: 85vw;
-					margin-top: 90vh;
-					z-index: 1;
+					width: auto;
+					height: auto;
+					z-index: 4;
+				}
+				.up{
+					position: relative;
+					margin:auto;
+					width: 8vh;
+			 		height: 8vh;
+					opacity: 20%;
 				}
 }
 
