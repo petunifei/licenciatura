@@ -126,14 +126,10 @@
 		text-align: center;
 		margin: auto 2%;
 	}
-
-#header-n1-img-logo{
-	overflow-y: auto;
-}
 	#header-n1-img-logo{
-		position: absolute;
-		 width: 300px;
-		 height: 300px;
+		position: ;
+		 width: 30%;
+		 height: 80%;
 		 opacity: 20%;
 		 z-index: 1;
 	}
