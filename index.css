@@ -1,0 +1,48 @@
+.home{
+	display: flex;
+	width: 100vw;
+	min-height: 58vh;
+}
+	.home-div{
+		display: flex;
+		position: relative;
+		vertical-align: middle;
+		align-items: center;
+		flex-wrap: wrap;
+		margin: auto;
+		width: 100vw;
+		justify-content: space-around;
+	}
+@media (orientation: landscape){
+		.home-a, .home-img{
+			width: 25vw;
+			height: 16vw;
+			border-radius: 3vh; 
+		}
+
+		.home-a:hover{
+			-moz-transform: scale(1.03);
+			-webkit-transform: scale(1.03);
+			transform: scale(1.03);
+			box-shadow: 2px 2px 2px 2px #9D0B34;			
+			
+		}
+		#header-n1-txt-title-portrait{
+			visibility: hidden;
+		}
+	}
+@media (orientation: portrait){
+
+		.home-a, .home-img{
+			width: 70vw;
+			height: 55vw;
+			border-radius: 3vh;	
+		}
+		.home-a{
+			margin: 5vh 0;
+			box-shadow: 4px 2px 2px #9D0B34;
+			border: 1px;
+			border-style: solid;
+			border-color:  #9D0B34;
+		}
+	}
