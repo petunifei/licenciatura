@@ -1,0 +1,49 @@
+.contato{
+	display: block;
+	width: 100vw;
+}
+.map{
+	display: block;
+	width: 100vw;
+	margin: auto;
+}
+iframe{
+	margin: auto;
+	align-items: center;
+}
+.content{
+	display: flex;
+	width: 100vw;
+	height: 30vh;
+}
+.c-txt{
+	font-size: 1.5rem;
+	color: black;
+	margin: auto;
+	font-family: calibri;
+	line-height: 2.5rem;
+	margin: auto auto auto 3%;
+}
+@media (orientation:portrait){
+	.info{
+		display: block;
+		min-height: 10vh;
+		vertical-align: middle;
+	}
+}
+@media (orientation:landscape){
+	.info{
+		display: block;
+		min-height: 20vh;
+		vertical-align: middle;
+	}
+}
+.color2{
+	background-color: #9571CE;
+}
+.color1{
+	background-color: white;	
+}
+.center{
+	text-align: center;
+}
