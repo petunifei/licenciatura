@@ -1,174 +1,180 @@
-.ensino-n0{
+@media (orientation:landscape){
+	.ensino-n0{
 	display: block;
 	width: 100vw;
 }
+/*descrição*/
 	.ensino-n1{
+		display: flex;
+		width: 100vw;
+		height: 60vh;
+	}
+	.gif-ens{
+			position: absolute;
+			margin-left: 30vw;
+			align-items: center;
+			justify-content: space-between;
+			width: 40vw;
+			height: 26.666vw;
+			opacity: 8%;
+			margin: white 5px;
+		}
+	.ensino-n2-a{
 		display: block;
+		margin-top: 3%;
+	}
+/*arquivos*/
+	.ensino-n2{
+		display: flex;
 		width: 100vw;
 	}
-/*background*/
-		.ensino-n2-a{
-			display: block;
-			width: 100vw;
-			max-width: 100vw;
-			margin: auto;
-			max-height: 40vw; 
-			}
-				#ensino-n4-a-img-background{
-					width: 100vw;
-					height: 40vw;
-					margin: auto;
-				}
-/*navegação #id*/
-		.ensino-n2-b{
-			display: flex;
-			flex-wrap: wrap;
-			width: 100vw;
-			min-height: 30vh;
-			max-height: 35vw;
-			align-items: center;
-			margin: auto;
-			background-color: white;
-		}
-			.ensino-n3-but{
-				height: 10vh;
-				min-width: 15vw;
-				max-width: 30vw;
-				margin: auto;
-				background-color:  #480435;
-				border-radius: 1vw;
-				}
-			.ensino-n5-c-title-txt-a{
-				display: flex;
-				align-items: center;
-				text-align: center;
-			}
-				.ensino-n3-but-txt{
-					display: inline;
-					font-size: 3vh;
-					color: white;
-					margin: auto;
-					padding: 3vh 8vh;
-					font-weight: bold;
-				}
-				#fisica-geral-1{
-					display: flex;
-					align-items: center;
-					text-align: center;
-				}
-@media (orientation:portrait){
-			.ensino-n2-b{
-				min-height: 20vw;
-			}
-				.ensino-n3-but{
-					height: 7vh;
-					min-width: 15vw;
-					max-width: 30vw;
-					margin: auto;
-					background-color: #480435;
-					border-radius: 2vw;
-				}
-				.ensino-n3-but-txt{
-					font-size: 2.5vw;
-					font-weight: bold;
-					color: white;
-					margin: auto;
-					padding: 2vw;
-				}
-				#fisica-geral-1{
-					display: flex;
-					align-items: center;
-					text-align: center;
-				}
-}
-
-/*miniaturas*/
-		.ensino-n2-c{
+		.curso{
 			display: block;
 			width: 100vw;
 		}
-			.ensino-n3-c-curso{
-				display: block;
+		.but-curso{
+			width: 100vw;
+			height: 40vh;
+			font-family: calibri;
+			font-size: 5rem;
+		}
+		.but-fis-1{
+			background-color: #509099; 
+		}
+		.but-mat-1{
+			background-color: #7D5536;
+		}
+			.disciplina{
+				display: none;
 				width: 100vw;
 			}
-				.ensino-n4-c-disciplina{
-					display: block;
+			.but-disciplina{
+				width: 100vw;
+				height: 20vh;
+				font-family: calibri;
+				font-size: 4rem;
+			}
+			.but-fis-2{
+				background-color: #B7DADF;
+			}
+			.but-mat-2{
+				background-color: #AB917D;
+			}
+				.materia{
+					display: none;
 					width: 100vw;
 				}
-					.ensino-n5-c-title-txt-div{
-						display: flex;
-						background-color: white;
-						height: 15vh;
-						justify-content: space-around;						
-						background-color: #56938F;
-					}
-						.ensino-n5-c-title-txt{
-							font-size: 6vh;
-							text-align: center;
-							margin: auto;
-							background-color: white;
-							background-color: #56938F;
-						}
-						.ensino-n5-c-subtitle-div{
-							display: flex;
-							width: 100vw;
-							height: 7vh;
-							align-items: center;
-							max-width: 100vw;
-						}
-							.ensino-n5-c-subtitle-txt{
-							width: 100vw;
-							max-width: 100vw;
-							font-size: 4vh;
-							text-align: left;
-							text-indent: 2vw;
-							position: relative;
-							background-color: 
-						}
-							.ensino-n5-c-div{
-								display: flex;
-								justify-content: space-around;
-								flex-wrap: wrap;
-							}
-								.ensino-n7-c-img{
-									flex-wrap: wrap;
-									width: 31vw;
-									height: 17vw;
-									margin: 3vh auto;
-									border-radius: 3vh;
-								}
-@media (orientation:portrait){
-				.ensino-n5-c-title-txt{
-							font-size: 4vh;
-				}			
-				.ensino-n5-c-subtitle-txt{
-					font-size: 2.5vh;
+				.but-materia{
+					width: 100vw;
+					height: 15vh;
+					font-family: calibri;
+					font-size: 3rem;				
 				}
-						.ensino-n7-c-img{
-							flex-wrap: wrap;
-							width: 90vw;
-							height: 45vw;
-							margin-left: auto;
-							margin-right: auto;
-							align-items: center;	
+					.content{
+						display: none;
+						width: 100vw;
+						justify-content: space-around;
+						flex-wrap: wrap;
+					}
+						.content-a{
+							border-radius: 3%;
+							margin: 2.5% 1.6666% 2.55% 1.6666% ;
 						}
+							.img-content{
+								width: 30vw;
+								height: 18vw;
+								border-radius: 3%;
+							}
+}
+@media (orientation:portrait){
+.ensino-n0{
+display: block;
+width: 100vw;
+}
+/*descrição*/
+	.ensino-n1{
+		display: flex;
+		width: 100vw;
+		height: 40vh;
+	}
+	.gif-ens{
+			position: absolute;
+			margin-left: 30vw;
+			align-items: center;
+			justify-content: space-between;
+			width: 40vw;
+			height: 26.666vw;
+			opacity: 8%;
+			margin: white 5px;
+		}
+	.ensino-n2-a{
+		display: block;
+		margin-top: 3%;
+	}
+	.center{
+		font-size: 1.3orem;
+	}
+/*arquivos*/
+	.ensino-n2{
+		display: flex;
+		width: 100vw;
+	}
+		.curso{
+			display: block;
+			width: 100vw;
+		}
+		.but-curso{
+			width: 100vw;
+			height: 15vh;
+			font-family: calibri;
+			font-size: 5rem;
+		}
+		.but-fis-1{
+			background-color: #509099; 
+		}
+		.but-mat-1{
+			background-color: #7D5536;
+		}
+			.disciplina{
+				display: none;
+				width: 100vw;
+			}
+			.but-disciplina{
+				width: 100vw;
+				height: 10vh;
+				font-family: calibri;
+				font-size: 4rem;
+			}
+			.but-fis-2{
+				background-color: #B7DADF;
+			}
+			.but-mat-2{
+				background-color: #AB917D;
+			}
+				.materia{
+					display: none;
+					width: 100vw;
+				}
+				.but-materia{
+					width: 100vw;
+					height: 5vh;
+					font-family: calibri;
+					font-size: 3rem;				
+				}
+					.content{
+						display: none;
+						width: 100vw;
+						justify-content: space-around;
+						flex-wrap: wrap;
+					}
+						.content-a{
+							border-radius: 3%;
+							margin: 5vw auto;
+						}
+							.img-content{
+								width: 90vw;
+								height: 50vw;
+								border-radius: 3%;
+							}
 
 }
-.hr{
-	display: block;
-	width: 100vw;
-	height: 1px;
-	background-color: black;
-}		
-
-
-
-
-
-
-
-
-
-
-
-
